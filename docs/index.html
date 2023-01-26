@@ -1,0 +1,1388 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Selçuk KUBUR</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 0.5rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">Selçuk KUBUR</h1>
+    			<h2 class="label">Senior DevOps/TechOps Engineer - AiFi Inc.</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="address">Turkey,USA,</span>
+    			<span class="countryCode">TR,US</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:selcukkubur@hotmail.com">selcukkubur@hotmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fas fa-mobile-alt"></span>
+    				<a class="hide-href-print" href="tel:+905383917600">+905383917600</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/selcukkubur/">selcukkubur</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-twitter twitter social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://twitter.com/codeless33">codeless33</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p>Born in Kadıköy, Istanbul at June  30th, 1989 as a citizen of Republic of Turkey</p><p>B class Driving License since July 7, 2011</p><p>As a teenager at school, I was always curious reading computer tech magazines and the other students approached about issues with their phone or laptop. I was the go-to guy for fixing resolving any technical problems.</p><p>Today, not much has changed. I’m still the first point of call for technical issues. The difference is I now also I helping to develop innovative software to solve the problems of multinational companies. One of my most recent projects involved designing and rolling-out a new piece of software to optimise the efficiency of holiday /flight bookings. This contributed to a reduction in cost and 45% increase in travel bookings.</p><p>In my spare time, I m consulting and creating new idea for side projects.</p><p>Never stop learning , and be the change you want to see in the world  !!</p><p>If you want to know more about me, send me a message or reach out to me at </p><p>selcukkubur@hotmail.com</p><p>selcuk@cloudhero.es</p><p>MCPD, MCTS, MCP for Microsoft SharePoint</p><p>Advance in English, Turkish as native language</p><p>Completed Military Service in 2010</p><p>Professional IT Experience since 2009</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Terraform
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Docker Products
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Microservices
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				DevOps
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Virtualization
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Git
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Cloud Migration
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Disaster Recovery
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Google Cloud Platform (GCP)
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Amazon Web Services (AWS)
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Cloud Operations
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Team Leadership
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Microsoft Technologies
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Data Migration
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Management
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				VMware
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Kubernetes
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				System Administration
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Hybrid Cloud
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Microsoft Certified Professional
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				IT Business Strategy
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				IT Service Management
+    			</h3>
+    			 		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Information Technology
+    			</h3>
+    			 		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(9)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+          <label for="work-item-0"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Sep 2021</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Senior DevOps/TechOps Consultant</div>
+            <div class="company">AiFi Inc.</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Santa Clara, California, United States,</span>
+           <div class="item" id="work-item">
+            <div class="summary"><p>* Busy with managing one hundred kubernetes clusters distributed around the world.</p><p>* Managing GitOps ArgoCD etc.</p><p>* Taking Care for implementing new approach like Kustomize , Helm and Terraform for Dev and Prod environments.</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-1"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2021</span>
+              <span class="endDate">- Nov 2021</span>
+            </div>
+            <div class="position">DevOps Tech Lead</div>
+            <div class="company">COFE App</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Istanbul, Turkey / Remote,</span>
+           <div class="item" id="work-item">
+            <div class="summary"><p>Serve as key leader and expert on DevOps practices</p><p>Implement and support Continuous Integration and Deployment Pipelines.</p><p>Schedule, implement, and automate security compliance patching and updates on Development and QA servers.</p><p>Ensure continuous availability of various tools supporting SCM & Release Management including Source Control, Continuous Integration, & Change Management.</p><p>Engage with cross-functional co-located teams in design, development and implementation of enterprise scalable features related to enabling higher developer productivity, environment monitoring and self-healing, and facilitate autonomous delivery teams.</p><p>Support, troubleshoot and analyze code on all 3 layers of the stack related to infrastructure, middleware, and continuous integration and delivery frameworks.</p><p>Responsible for deploying code and other proactive maintenance activities to keep the services up and running</p><p>Production Release Implementation plan and Install Support</p><p>Developer Efficiency Tools (Focusing on Freeing up Development staff to focus on deliverables)</p><p>Integrating Code Quality tools and Code Analysis tools into IDE’s</p><p>Implementing Automation to improve coding efficiency</p><p>Integrations with each SCM Tools</p><p>CI/CD Onboarding</p><p>Mentor junior members in the team</p><p>Work collaboratively across team boundaries to share common capabilities</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-2"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Mar 2020</span>
+              <span class="endDate">- Jan 2021</span>
+            </div>
+            <div class="position">Senior DevOps Engineer / Site Reliability Engineer</div>
+            <div class="company">Emlakjet</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">İstanbul, Türkiye,</span>
+           <div class="item" id="work-item">
+            <div class="summary"><p>* Utilize various open source technologies</p><p>* Use various tools to orchestrate solutions like Jenkins,Teamcity,Octopus,Rancher</p><p>* Build independent web based tools, microservices and solutions</p><p>* Configure and manage data sources like MySQL, Mongo, Elasticsearch, Redis , etc</p><p>* Manage source control including SVN and GIT</p><p>* Consulting with management on the operational requirements of software solutions.</p><p>* Contributing expertise on information system options, risk, and operational impact.</p><p>* Mentoring junior software developers in gaining experience and assuming DevOps responsibilities.</p><p>* Managing the installation and configuration of solutions.</p><p>* Collaborating with developers on software requirements, as well as interpreting test stage data.</p><p>* Developing interface simulators and designing automated module deployments.</p><p>* Completing code and script updates, as well as resolving product implementation errors.</p><p>* Overseeing routine maintenance procedures and performing diagnostic tests.</p><p>* Documenting processes and monitoring performance metrics.</p><p>* Conforming to best practices in network administration and cybersecurity.</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-3"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Apr 2019</span>
+              <span class="endDate">- Mar 2020</span>
+            </div>
+            <div class="position">Hybrid/Multi Cloud Infrastructure Engineer</div>
+            <div class="company">Lidya Yazılım Danışmanlık ve Bilgi Sistemleri A.Ş.</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Istanbul, Turkey,</span>
+           <div class="item" id="work-item">
+            <div class="summary"><p>* Experience in AWS / Azure Platform as a Service (Paas) and Infastructure as a Service (IaaS)</p><p>* Experience in guiding the classification , plan , implementation,growth,adoption and compliance to enterprise architecture strategies,process and standarts.</p><p>*Ability to design and manage cloud-based infastructures to deliver the required performance ,security and avalibility requirements.</p><p>* Well-Architected Hands-one experience with EC2,ECS,ELB,EBS,S3,VPC,IAM,SQS,RDS,DMS,SMS,Lambda,CloudWatch,CloudFormation,ElasticBeanStalk and AutoScaling.</p><p>*Managing Azure DevOps and architecture for components.</p><p>*Ability to design and manage AWS VPC.</p><p>*MultiCloud Migrate Experience Azure and AWS.</p><p>*Proficient in working in Windows and Linux server environments</p><p>*Front line support for Cloud Monitoring Infrastructure and Application</p><p>*Respond, troubleshoot and resolve production alerts</p><p>*Communicate and troubleshoot operational issues supporting a complex environment</p><p>*Initiate Incident Response for cloud outages</p><p>*Analyze trends to pro-actively prevent incidents</p><p>*Respond to product escalations from Support as well as Engineering</p><p>*Scale infrastructure capacity on production</p><p>*Participate in Cloud Updates and Maintenance</p><p>*Assist in security vulnerability and remediation</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-4"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Nov 2018</span>
+              <span class="endDate">- Apr 2019</span>
+            </div>
+            <div class="position">IT Manager</div>
+            <div class="company">The House Hotel</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Istanbul, Turkey,</span>
+           <div class="item" id="work-item">
+            <div class="summary"><p>* Migrating current infrastructure to new data-center</p><p>* Build a new isolated network</p><p>* Managing 4 Locations at the same time.</p><p>* Managing Oracle Opera PMS and integrations.</p><p>* Responsible for the operation of all data and communication systems including telephone systems, PMS and network equipment to maintain an optimal state of operating efficiency.</p><p>* Maintains security and checks proper backup of all data files and system at all times.</p><p>* Maintains user accounts with level of authorization.Performs periodic training of key users and end user support.</p><p>* Ensures System Continuity and disaster recovery plans.</p><p>* Adaptation of Information Technology Strategy with corporate business strategy.</p><p>* Ensuring Corporate Information System strategies and support corporate level strategy,</p><p>* Leading and informing IT process optimization Setting up, maintaining, updating and monitoring quality standards of IT services</p><p>* Information Technology risk identification, monitoring, leading and to inform senior management about critical risks and necessary precautions.</p><p>* Taking responsibility for IT service and consultancy contracts with the aim to reduce costs and reaching quality standards and needed IT solutions.</p><p>* Following world global information technology standards and integration with IT processes in respect of corporate strategies.</p><p>* Determining new technologies needed for improving processes and ways of doing business, and present necessary investments to the senior management.</p><p>* Controlling of consultancy services committed in the scope of the consultancy services.</p><p>* Performs Internal IT Audits.</p><p>* Prepares budget and business plans.</p><p>* Prepares and manages Responsible Business activities.</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-5"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Mar 2016</span>
+              <span class="endDate">- Sep 2018</span>
+            </div>
+            <div class="position">Senior Cloud System Manager</div>
+            <div class="company">Darüşşafaka Cemiyeti</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Maslak/Sariyer,</span>
+           <div class="item" id="work-item">
+            <div class="summary"><p>* Manage Cloud Syncronization Solutions like  Active Directory(AD) and Azure or Google Dirsync</p><p>* Manage VM Hypervizors like Wmware and Hyper-v Machines</p><p>* Manage Storage Servers like HP 3Par,StoreOnce or EMC</p><p>* Manage (Manage Engine) Solutions like Service Desk Plus,AD Manager Plus etc</p><p>* Manage Disaster Recovery plan on AWS and Azure (ASR), or Datacenter solutions.</p><p>* Control and Manage Backup Planning with Veeam.</p><p>* Creating necessery Procedures on company like </p><p>   - Backup Procedures,</p><p>   - Software Licencing </p><p>   - and Restore Procedures.</p><p>* Also share knowledge with creating educational guides for my team and users.</p><p>* Manage&Configure Aruba Controller with HA</p><p>* Knowledge about Patch Management with ME DesktopCentral ,SCCM</p><p>* Knowledge about SCOM (System Center Operation Manager)</p><p>* Network and Configuration Management with OPManager and Knowledge about HP IMC</p><p>* Deploying and Managing complex networks manage many vlans at the same time.</p><p>* Knowledge about L3 Protocol with EACL.</p><p>* Knowledge about Security Platforms like cloud application security inspections.</p><p>* Experienced with Citrix technologies, Citrix Xe-nApp/XenDesktop/XenServer ,</p><p>   CVAD,Citrix NetScaler, Web Interface/StoreFront, Citrix Provisioning and Machine Creation Services</p><p>* Experienced in configuring and managing complex Citrix environments containing XenApp, XenDesktop, NetScaler,and Storefront Firewalls, and other supporting technologies.</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-6"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Feb 2016</span>
+              <span class="endDate">- Apr 2016</span>
+            </div>
+            <div class="position">IT Project Coordinator (OutSource)</div>
+            <div class="company">SLG Lojistik A.S.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p>* Develop Project Plan and coordinate</p><p>* Managing the project stakeholders, team , risk , schedule</p><p>* Resources utilization</p><p>* Budget </p><p>* Cost analysis.</p><p>* Manage and combine all web servers into one core.</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-7"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Sep 2011</span>
+              <span class="endDate">- Feb 2016</span>
+            </div>
+            <div class="position">IT Category Manager</div>
+            <div class="company">Metro Cash and Carry</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p>Responsibilities: </p><p>1. Manage information technology and computer systems</p><p> Plan, organize, direct, control and evaluate the operations of information systems and electronic</p><p>data processing (EDP)</p><p>Create new reporting template and execute on Qlickview and Microstrategy Crm Apps</p><p> Develop and implement policies and procedures for electronic data processing and computer</p><p>systems operations and development</p><p> Meet with managers to discuss system requirements, specifications, costs and timelines</p><p> Hire and manage information systems personnel and contractors to design, develop, implement,</p><p>operate and administer computer and telecommunications software, networks and information</p><p>systems</p><p>Control the computer systems budgets and expenditures</p><p>2. Ensure technology is accessible and equipped with current hardware and software</p><p>Main Activities</p><p>Troubleshoot hardware, software and network operating system</p><p>Create new reporting template and execute on Qlickview and Microstrategy Crm Apps</p><p>Be familiar with all hardware and software</p><p>Be familiar with network operating system</p><p>Provide orientation to new users of existing technology</p><p>Train staff about potential uses of existing technology</p><p>Train staff about new and potential use</p><p>Provide individual training and support on request</p><p>Provide recommendations about accessing information and support</p><p>Maintain current and accurate inventory of technology hardware, software and resources</p><p>Monitor and maintain technology to ensure maximum access.</p></div>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-8"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2010</span>
+              <span class="endDate">- Sep 2010</span>
+            </div>
+            <div class="position">IT Helpdesk</div>
+            <div class="company">Boyner Buyuk Magazacilik A.S.</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p>SUMMARY</p><p>Responsible for providing technical assistance and support related to computer systems, hardware, or software. Responds to queries, runs diagnostic programs, isolates problem, and determines and implements solution.</p><p>PRIMARY RESPONSIBILITIES</p><p>Provide technical assistance and support for incoming queries and issues related to computer systems, software, and hardware.</p><p>Respond to queries either in person or over the phone.</p><p>Write training manuals.</p><p>Train computer users.</p><p>Maintain daily performance of computer systems.</p><p>Manage more than 10 store with remotely</p><p>Respond to email messages for customers seeking help.</p><p>Ask questions to determine nature of problem.</p><p>Walk customer through problem-solving process.</p><p>Install, modify, and repair computer hardware and software.</p><p>Clean up computers.</p><p>Run diagnostic programs to resolve problems.</p><p>Resolve technical problems with Local Area Networks (LAN), Wide Area Networks (WAN), and other systems.</p><p>Install computer peripherals for users.</p><p>Follow up with customers to ensure issue has been resolved.</p><p>Gain feedback from customers about computer usage.</p><p>Run reports to determine malfunctions that continue to occur.</p></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="studyType">
+                Bachelor&#x27;s degree
+              </div>
+              <div class="area">
+                Computer Software Engineering
+              </div>
+              <div class="institution">
+                Ahmet yesevi Üniversitesi
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2014
+              </span>
+              <span class="endDate">
+              - 2016
+              </span>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+            <label for="award-item-0"></label>
+    
+          <header class="clear">
+            <div class="header-left">
+              <div class="title">
+                New Store Opening Support
+              </div>
+            </div>
+            <div class="date">
+              2013
+            </div>
+          </header>
+          
+          <div class="item">
+              <div class="summary"><p>Yeni C&C Mağaza Kurulum sürecinde verilen hizmet başarı plaketi.</p><p>New C&C store installations honor award for success in the service quality.</p></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Certificates</h2>
+      </header>
+      <section id="certificates">
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                Microsoft Certificated Professional
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCPD: Enterprise Application Developer
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="http://www.microsoft.com/learning/en-us/certification-overview.aspx">http://www.microsoft.com/learning/en-us/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: SQL Server 2005
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="http://www.microsoft.com/learning/en-us/certification-overview.aspx">http://www.microsoft.com/learning/en-us/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: .Net Framework 2.0, Windows Applications
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="http://www.microsoft.com/learning/en-us/certification-overview.aspx">http://www.microsoft.com/learning/en-us/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: .Net Framework 2.0, Web Applications
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="http://www.microsoft.com/learning/en-us/certification-overview.aspx">http://www.microsoft.com/learning/en-us/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: .Net Framework 2.0, Distributed Applications
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="http://www.microsoft.com/learning/en-us/certification-overview.aspx">http://www.microsoft.com/learning/en-us/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCPD: Enterprise Application Developer
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="https://www.microsoft.com/en-us/learning/certification-overview.aspx">https://www.microsoft.com/en-us/learning/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: SQL Server 2005
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="https://www.microsoft.com/en-us/learning/certification-overview.aspx">https://www.microsoft.com/en-us/learning/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: .Net Framework 2.0, Windows Applications
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="https://www.microsoft.com/en-us/learning/certification-overview.aspx">https://www.microsoft.com/en-us/learning/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+        <section class="certificate-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="name">
+                MCTS: .Net Framework 2.0, Web Applications
+              </div>
+              <div class="issuer">
+                Microsoft
+              </div>
+            </div>
+          </header>
+    
+          <div class="item">
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="https://www.microsoft.com/en-us/learning/certification-overview.aspx">https://www.microsoft.com/en-us/learning/certification-overview.aspx</a>
+            </span>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency professional working">
+              <em>Professional Working</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </body>
+</html>
