@@ -1,0 +1,328 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Selçuk KUBUR",
+    "label": "Senior DevOps/TechOps Engineer - AiFi Inc.",
+    "image": "",
+    "email": "selcukkubur@hotmail.com",
+    "phone": "+905383917600",
+    "url": "",
+    "summary": "Born in Kadıköy, Istanbul at June  30th, 1989 as a citizen of Republic of Turkey\nB class Driving License since July 7, 2011\n\nAs a teenager at school, I was always curious reading computer tech magazines and the other students approached about issues with their phone or laptop. I was the go-to guy for fixing resolving any technical problems.\n\nToday, not much has changed. I’m still the first point of call for technical issues. The difference is I now also I helping to develop innovative software to solve the problems of multinational companies. One of my most recent projects involved designing and rolling-out a new piece of software to optimise the efficiency of holiday /flight bookings. This contributed to a reduction in cost and 45% increase in travel bookings.\n\nIn my spare time, I m consulting and creating new idea for side projects.\n\nNever stop learning , and be the change you want to see in the world  !!\n\nIf you want to know more about me, send me a message or reach out to me at \nselcukkubur@hotmail.com\nselcuk@cloudhero.es\n\nMCPD, MCTS, MCP for Microsoft SharePoint\nAdvance in English, Turkish as native language\nCompleted Military Service in 2010\nProfessional IT Experience since 2009\n",
+    "location": {
+      "countryCode": "US",
+      "address": "Turkey"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "selcukkubur",
+        "url": "https://www.linkedin.com/in/selcukkubur/"
+      },
+      {
+        "network": "Twitter",
+        "username": "selcukkubur",
+        "url": "https://twitter.com/selcukkubur"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "AiFi Inc.",
+      "position": "Senior DevOps/TechOps Consultant",
+      "startDate": "2021-09-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "* Busy with managing one hundred kubernetes clusters distributed around the world.\n* Managing GitOps ArgoCD etc.\n* Taking Care for implementing new approach like Kustomize , Helm and Terraform for Dev and Prod environments.",
+      "url": "https://www.linkedin.com/company/aifi-inc/",
+      "location": "Santa Clara, California, United States"
+    },
+    {
+      "name": "COFE App",
+      "position": "DevOps Tech Lead",
+      "startDate": "2021-01-31",
+      "endDate": "2021-11-30",
+      "highlights": [],
+      "summary": "Serve as key leader and expert on DevOps practices\nImplement and support Continuous Integration and Deployment Pipelines.\nSchedule, implement, and automate security compliance patching and updates on Development and QA servers.\nEnsure continuous availability of various tools supporting SCM & Release Management including Source Control, Continuous Integration, & Change Management.\nEngage with cross-functional co-located teams in design, development and implementation of enterprise scalable features related to enabling higher developer productivity, environment monitoring and self-healing, and facilitate autonomous delivery teams.\nSupport, troubleshoot and analyze code on all 3 layers of the stack related to infrastructure, middleware, and continuous integration and delivery frameworks.\nResponsible for deploying code and other proactive maintenance activities to keep the services up and running\nProduction Release Implementation plan and Install Support\nDeveloper Efficiency Tools (Focusing on Freeing up Development staff to focus on deliverables)\nIntegrating Code Quality tools and Code Analysis tools into IDE’s\nImplementing Automation to improve coding efficiency\nIntegrations with each SCM Tools\nCI/CD Onboarding\nMentor junior members in the team\nWork collaboratively across team boundaries to share common capabilities",
+      "url": "https://www.linkedin.com/company/cofeapp/",
+      "location": "Istanbul, Turkey / Remote"
+    },
+    {
+      "name": "Emlakjet",
+      "position": "Senior DevOps Engineer / Site Reliability Engineer",
+      "startDate": "2020-03-31",
+      "endDate": "2021-01-31",
+      "highlights": [],
+      "summary": "* Utilize various open source technologies\n* Use various tools to orchestrate solutions like Jenkins,Teamcity,Octopus,Rancher\n* Build independent web based tools, microservices and solutions\n* Configure and manage data sources like MySQL, Mongo, Elasticsearch, Redis , etc\n* Manage source control including SVN and GIT\n* Consulting with management on the operational requirements of software solutions.\n* Contributing expertise on information system options, risk, and operational impact.\n* Mentoring junior software developers in gaining experience and assuming DevOps responsibilities.\n* Managing the installation and configuration of solutions.\n* Collaborating with developers on software requirements, as well as interpreting test stage data.\n* Developing interface simulators and designing automated module deployments.\n* Completing code and script updates, as well as resolving product implementation errors.\n* Overseeing routine maintenance procedures and performing diagnostic tests.\n* Documenting processes and monitoring performance metrics.\n* Conforming to best practices in network administration and cybersecurity.",
+      "url": "https://www.linkedin.com/company/emlakjet-com/",
+      "location": "İstanbul, Türkiye"
+    },
+    {
+      "name": "Lidya Yazılım Danışmanlık ve Bilgi Sistemleri A.Ş.",
+      "position": "Hybrid/Multi Cloud Infrastructure Engineer",
+      "startDate": "2019-04-30",
+      "endDate": "2020-03-31",
+      "highlights": [],
+      "summary": "* Experience in AWS / Azure Platform as a Service (Paas) and Infastructure as a Service (IaaS)\n* Experience in guiding the classification , plan , implementation,growth,adoption and compliance to enterprise architecture strategies,process and standarts.\n*Ability to design and manage cloud-based infastructures to deliver the required performance ,security and avalibility requirements.\n* Well-Architected Hands-one experience with EC2,ECS,ELB,EBS,S3,VPC,IAM,SQS,RDS,DMS,SMS,Lambda,CloudWatch,CloudFormation,ElasticBeanStalk and AutoScaling.\n*Managing Azure DevOps and architecture for components.\n*Ability to design and manage AWS VPC.\n*MultiCloud Migrate Experience Azure and AWS.\n*Proficient in working in Windows and Linux server environments\n*Front line support for Cloud Monitoring Infrastructure and Application\n*Respond, troubleshoot and resolve production alerts\n*Communicate and troubleshoot operational issues supporting a complex environment\n*Initiate Incident Response for cloud outages\n*Analyze trends to pro-actively prevent incidents\n*Respond to product escalations from Support as well as Engineering\n*Scale infrastructure capacity on production\n*Participate in Cloud Updates and Maintenance\n*Assist in security vulnerability and remediation",
+      "url": "https://www.linkedin.com/company/lidya-yaz-l-m-dan-manl-k-ve-bilgi-sistemleri-a-/",
+      "location": "Istanbul, Turkey"
+    },
+    {
+      "name": "The House Hotel",
+      "position": "IT Manager",
+      "startDate": "2018-11-30",
+      "endDate": "2019-04-30",
+      "highlights": [],
+      "summary": "* Migrating current infrastructure to new data-center\n* Build a new isolated network\n* Managing 4 Locations at the same time.\n* Managing Oracle Opera PMS and integrations.\n* Responsible for the operation of all data and communication systems including telephone systems, PMS and network equipment to maintain an optimal state of operating efficiency.\n* Maintains security and checks proper backup of all data files and system at all times.\n* Maintains user accounts with level of authorization.Performs periodic training of key users and end user support.\n* Ensures System Continuity and disaster recovery plans.\n* Adaptation of Information Technology Strategy with corporate business strategy.\n* Ensuring Corporate Information System strategies and support corporate level strategy,\n* Leading and informing IT process optimization Setting up, maintaining, updating and monitoring quality standards of IT services\n* Information Technology risk identification, monitoring, leading and to inform senior management about critical risks and necessary precautions.\n* Taking responsibility for IT service and consultancy contracts with the aim to reduce costs and reaching quality standards and needed IT solutions.\n* Following world global information technology standards and integration with IT processes in respect of corporate strategies.\n* Determining new technologies needed for improving processes and ways of doing business, and present necessary investments to the senior management.\n* Controlling of consultancy services committed in the scope of the consultancy services.\n* Performs Internal IT Audits.\n* Prepares budget and business plans.\n* Prepares and manages Responsible Business activities.",
+      "url": "",
+      "location": "Istanbul, Turkey"
+    },
+    {
+      "name": "Darüşşafaka Cemiyeti",
+      "position": "Senior Cloud System Manager",
+      "startDate": "2016-03-31",
+      "endDate": "2018-09-30",
+      "highlights": [],
+      "summary": "* Manage Cloud Syncronization Solutions like  Active Directory(AD) and Azure or Google Dirsync\n* Manage VM Hypervizors like Wmware and Hyper-v Machines\n* Manage Storage Servers like HP 3Par,StoreOnce or EMC\n* Manage (Manage Engine) Solutions like Service Desk Plus,AD Manager Plus etc\n* Manage Disaster Recovery plan on AWS and Azure (ASR), or Datacenter solutions.\n* Control and Manage Backup Planning with Veeam.\n* Creating necessery Procedures on company like \n   - Backup Procedures,\n   - Software Licencing \n   - and Restore Procedures.\n* Also share knowledge with creating educational guides for my team and users.\n* Manage&Configure Aruba Controller with HA\n* Knowledge about Patch Management with ME DesktopCentral ,SCCM\n* Knowledge about SCOM (System Center Operation Manager)\n* Network and Configuration Management with OPManager and Knowledge about HP IMC\n* Deploying and Managing complex networks manage many vlans at the same time.\n* Knowledge about L3 Protocol with EACL.\n* Knowledge about Security Platforms like cloud application security inspections.\n* Experienced with Citrix technologies, Citrix Xe-nApp/XenDesktop/XenServer ,\n   CVAD,Citrix NetScaler, Web Interface/StoreFront, Citrix Provisioning and Machine Creation Services\n* Experienced in configuring and managing complex Citrix environments containing XenApp, XenDesktop, NetScaler,and Storefront Firewalls, and other supporting technologies.",
+      "url": "https://www.linkedin.com/company/darussafaka/",
+      "location": "Maslak/Sariyer"
+    },
+    {
+      "name": "SLG Lojistik A.S.",
+      "position": "IT Project Coordinator (OutSource)",
+      "startDate": "2016-02-28",
+      "endDate": "2016-04-30",
+      "highlights": [],
+      "summary": "* Develop Project Plan and coordinate\n* Managing the project stakeholders, team , risk , schedule\n* Resources utilization\n* Budget \n* Cost analysis.\n* Manage and combine all web servers into one core.",
+      "url": ""
+    },
+    {
+      "name": "Metro Cash and Carry",
+      "position": "IT Category Manager",
+      "startDate": "2011-09-30",
+      "endDate": "2016-02-28",
+      "highlights": [],
+      "summary": "Responsibilities: \n\n1. Manage information technology and computer systems\n Plan, organize, direct, control and evaluate the operations of information systems and electronic\ndata processing (EDP)\nCreate new reporting template and execute on Qlickview and Microstrategy Crm Apps\n Develop and implement policies and procedures for electronic data processing and computer\nsystems operations and development\n Meet with managers to discuss system requirements, specifications, costs and timelines\n Hire and manage information systems personnel and contractors to design, develop, implement,\noperate and administer computer and telecommunications software, networks and information\nsystems\nControl the computer systems budgets and expenditures\n2. Ensure technology is accessible and equipped with current hardware and software\nMain Activities\nTroubleshoot hardware, software and network operating system\nCreate new reporting template and execute on Qlickview and Microstrategy Crm Apps\nBe familiar with all hardware and software\nBe familiar with network operating system\nProvide orientation to new users of existing technology\nTrain staff about potential uses of existing technology\nTrain staff about new and potential use\nProvide individual training and support on request\nProvide recommendations about accessing information and support\nMaintain current and accurate inventory of technology hardware, software and resources\n\nMonitor and maintain technology to ensure maximum access.",
+      "url": "https://www.linkedin.com/company/metro-makro/"
+    },
+    {
+      "name": "Boyner Buyuk Magazacilik A.S.",
+      "position": "IT Helpdesk",
+      "startDate": "2010-01-31",
+      "endDate": "2010-09-30",
+      "highlights": [],
+      "summary": "SUMMARY\nResponsible for providing technical assistance and support related to computer systems, hardware, or software. Responds to queries, runs diagnostic programs, isolates problem, and determines and implements solution.\nPRIMARY RESPONSIBILITIES\nProvide technical assistance and support for incoming queries and issues related to computer systems, software, and hardware.\nRespond to queries either in person or over the phone.\nWrite training manuals.\nTrain computer users.\nMaintain daily performance of computer systems.\nManage more than 10 store with remotely\nRespond to email messages for customers seeking help.\nAsk questions to determine nature of problem.\nWalk customer through problem-solving process.\nInstall, modify, and repair computer hardware and software.\nClean up computers.\nRun diagnostic programs to resolve problems.\nResolve technical problems with Local Area Networks (LAN), Wide Area Networks (WAN), and other systems.\nInstall computer peripherals for users.\nFollow up with customers to ensure issue has been resolved.\nGain feedback from customers about computer usage.\nRun reports to determine malfunctions that continue to occur.",
+      "url": "https://www.linkedin.com/company/boyner/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Ahmet yesevi Üniversitesi",
+      "area": "Computer Software Engineering",
+      "studyType": "Bachelor's degree",
+      "startDate": "2014-12-31",
+      "endDate": "2016-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "New Store Opening Support",
+      "date": "2013-07-31",
+      "awarder": null,
+      "summary": "Yeni C&C Mağaza Kurulum sürecinde verilen hizmet başarı plaketi.\nNew C&C store installations honor award for success in the service quality."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certificated Professional",
+      "issuer": null
+    },
+    {
+      "name": "MCPD: Enterprise Application Developer",
+      "issuer": "Microsoft",
+      "startDate": "2008-10-31",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: SQL Server 2005",
+      "issuer": "Microsoft",
+      "startDate": "2007-03-31",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: .Net Framework 2.0, Windows Applications",
+      "issuer": "Microsoft",
+      "startDate": "2007-09-30",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: .Net Framework 2.0, Web Applications",
+      "issuer": "Microsoft",
+      "startDate": "2007-09-30",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: .Net Framework 2.0, Distributed Applications",
+      "issuer": "Microsoft",
+      "startDate": "2008-04-30",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+    },
+    {
+      "name": "MCPD: Enterprise Application Developer",
+      "issuer": "Microsoft",
+      "startDate": "2008-10-31",
+      "url": "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: SQL Server 2005",
+      "issuer": "Microsoft",
+      "startDate": "2007-03-31",
+      "url": "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: .Net Framework 2.0, Windows Applications",
+      "issuer": "Microsoft",
+      "startDate": "2007-09-30",
+      "url": "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
+    },
+    {
+      "name": "MCTS: .Net Framework 2.0, Web Applications",
+      "issuer": "Microsoft",
+      "startDate": "2007-09-30",
+      "url": "https://www.microsoft.com/en-us/learning/certification-overview.aspx"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker Products",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Virtualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Migration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Disaster Recovery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Operations",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Team Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Technologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Migration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VMware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hybrid Cloud",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Certified Professional",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Business Strategy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Service Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Information Technology",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Professional Working",
+      "language": "English"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
